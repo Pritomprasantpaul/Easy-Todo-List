@@ -12,8 +12,8 @@ import { FormsModule } from "@angular/forms";
 
 
 @NgModule({
-    declarations: [AppComponent,],
+    declarations: [AppComponent, HeaderComponent, UserComponent, CardComponent, TasksComponent, TaskComponent, NewTaskComponent],
     bootstrap: [AppComponent],
-    imports: [BrowserModule, FormsModule, HeaderComponent, UserComponent, CardComponent, TasksComponent, TaskComponent, NewTaskComponent]
+    imports: [BrowserModule, FormsModule]
 })
 export class AppModule { }
